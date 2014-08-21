@@ -24,6 +24,14 @@ Installing "WP Responsive Media" can be done either by searching for "WP Respons
 
 == Frequently Asked Questions ==
 
+= Does this make all of my images responsive for older posts? =
+
+No. This only works on images added after you’ve activated the plugin.
+
+= Does everything blow up after I uninstall it? =
+
+No. There will be a little extra code in your markup that is used by this plugin, mainly some extra data attributes, but everything will continue to function normally.
+
 = How does it work? =
 
 After you’ve activated the plugin, just go to your Post or Page and insert an image. You won’t notice anything different in the WordPress admin, it’ll just show up as an image like every other one. On the front end of the site, you’ll now see that the images that you’ve added are now fully responsive.
