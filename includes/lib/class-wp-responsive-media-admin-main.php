@@ -36,6 +36,9 @@ function remove_wysiwyg_dummy_image($content) {
 	$dom->loadHTML($content);
 	$images = $dom->getElementsByTagName('img');
 	foreach ($images as $image) {
+		// If it's a regular WP image, skip it
+		if (strpos($image->getAttribute('class'), 'fake-wp-image') === false) continue;
+
 		$src = $image->getAttribute('src');
 		$alt = $image->getAttribute('alt');
 		$title = $image->getAttribute('title');

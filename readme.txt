@@ -4,7 +4,7 @@ Donate link: http://www.randyjensen.com/
 Tags: responsive, images, rwd, media
 Requires at least: 3.9
 Tested up to: 3.9.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,10 @@ After you’ve activated the plugin, just go to your Post or Page and insert an 
 = 1.0 =
 * 2014-08-21
 * Initial release
+
+= 1.0.3 =
+* 2014-08-21
+* Added check for old images so we don’t parse those
 
 == Upgrade Notice ==
 
