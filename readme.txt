@@ -4,7 +4,7 @@ Donate link: http://www.randyjensen.com/
 Tags: responsive, images, rwd, media
 Requires at least: 3.9
 Tested up to: 3.9.1
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,9 @@ No. This only works on images added after you’ve activated the plugin.
 
 = Does everything blow up after I uninstall it? =
 No. There will be a little extra code in your markup that is used by this plugin, mainly some extra data attributes, but everything will continue to function normally.
+
+= Does this handle all media? =
+No. It only handles images. Someone had already taken WP Responsive Images so this was the next best.
 
 = How does it work? =
 After you’ve activated the plugin, just go to your Post or Page and insert an image. You won’t notice anything different in the WordPress admin, it’ll just show up as an image like every other one. On the front end of the site, you’ll now see that the images that you’ve added are now fully responsive. You can read about it in more depth [here](http://randyjensenonline.com/thoughts/crafting-seamless-responsive-images-solution-wordpress/)
