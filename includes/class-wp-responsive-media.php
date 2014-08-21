@@ -90,7 +90,7 @@ class WP_Responsive_Media {
 		$this->file = $file;
 		$this->dir = dirname( $this->file );
 		$this->assets_dir = trailingslashit( $this->dir ) . 'assets';
-		$this->assets_url = esc_url( trailingslashit( plugins_url( '/assets/', $this->file ) ) );
+		$this->assets_url = esc_url( trailingslashit( plugins_url( '/js/', $this->file ) ) );
 
 		register_activation_hook( $this->file, array( $this, 'install' ) );
 
@@ -154,13 +154,13 @@ class WP_Responsive_Media {
 	 * @return  void
 	 */
 	public function enqueue_scripts () {
-		wp_register_script( $this->_token . '-classList', esc_url( $this->assets_url ) . 'js/classList' . '.js', array(), $this->_version, true );
+		wp_register_script( $this->_token . '-classList', esc_url( $this->assets_url ) . 'classList' . '.js', array(), $this->_version, true );
 		wp_enqueue_script( $this->_token . '-classList' );
 
-		wp_register_script( $this->_token . '-picturefill.min', esc_url( $this->assets_url ) . 'js/picturefill.min' . '.js', array(), $this->_version, true );
+		wp_register_script( $this->_token . '-picturefill.min', esc_url( $this->assets_url ) . 'picturefill.min' . '.js', array(), $this->_version, true );
 		wp_enqueue_script( $this->_token . '-picturefill.min' );
 
-		wp_register_script( $this->_token . '-frontend', esc_url( $this->assets_url ) . 'js/frontend' . '.js', array(), $this->_version, true );
+		wp_register_script( $this->_token . '-frontend', esc_url( $this->assets_url ) . 'frontend' . '.js', array(), $this->_version, true );
 		wp_enqueue_script( $this->_token . '-frontend' );
 	} // End enqueue_scripts ()
 
