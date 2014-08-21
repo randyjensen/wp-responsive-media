@@ -64,7 +64,8 @@ function remove_wysiwyg_dummy_image($content) {
 		$picturefill->appendXML($html);
 		$image->parentNode->replaceChild( $picturefill, $image );
 	}
-	$content = $dom->saveHTML();
+	// Remove the doctype that is added
+	$content = preg_replace('~<(?:!DOCTYPE|/?(?:html|body))[^>]*>\s*~i', '', $dom->saveHTML());
 
 	return $content;
 }
