@@ -1,0 +1,37 @@
+=== WP Responsive Media ===
+Contributors: randyjensen
+Donate link: http://www.randyjensen.com/
+Tags: responsive, images, rwd, media
+Requires at least: 3.9
+Tested up to: 3.9.1
+Stable tag: 1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+A seamless responsive images solution for WordPress that doesn’t break the visual editor.
+
+== Description ==
+
+Most responsive image solutions use shortcodes to insert responsive images. This isn’t inherently a bad idea, but it does ruin the experience for your content editors who lose the ability to see images in the visual editor. WP Responsive Media maintains the visual editor support as well as all other WordPress media functionality. It’s built on top of the Picturefill polyfill for the picture element and uses the default WordPress image sizes.
+
+== Installation ==
+
+Installing "WP Responsive Media" can be done either by searching for "WP Responsive Media" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
+
+1. Download the plugin via WordPress.org
+1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
+1. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Frequently Asked Questions ==
+
+== Changelog ==
+
+= 1.0 =
+* 2014-08-21
+* Initial release
+
+== Upgrade Notice ==
+
+= 1.0 =
+* 2014-08-21
+* Initial release
