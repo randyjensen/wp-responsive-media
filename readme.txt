@@ -24,6 +24,10 @@ Installing "WP Responsive Media" can be done either by searching for "WP Respons
 
 == Frequently Asked Questions ==
 
+= How does it work? =
+
+After you’ve activated the plugin, just go to your Post or Page and insert an image. You won’t notice anything different in the WordPress admin, it’ll just show up as an image like every other one. On the front end of the site, you’ll now see that the images that you’ve added are now fully responsive.
+
 == Changelog ==
 
 = 1.0 =
